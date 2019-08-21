@@ -2,7 +2,7 @@
 
 **WooCommerce Checkout Email Validator** : An easy tool for prevent email spamming on your store.
 
-**Contributors:** homescriptone,kpego
+**Contributors:** homescriptone,kpego  
 **Tags:** spam, email, checkout,woocommerce,order  
 **Donate link:** https://homescriptone.com  
 **Requires at least:** 4.4  
