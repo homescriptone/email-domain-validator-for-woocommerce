@@ -80,40 +80,6 @@ function hs_ev_process(){
     }
 }
 
-register_activation_hook(__FILE__, 'hs_ev_activate_hook');
-
-function hs_ev_activate_hook() {
-	$type_of_actions = "activation";
-	$email = get_option('admin_email');
-	$siteurl = get_site_url();
-	$product = "hs_ev";
-	$values = new stdClass();
-	$values->text = "website : $siteurl ,\n email : $email ,\n product : $product ,\n action : $type_of_actions ";
-	$json = wp_json_encode($values);
-		wp_remote_post('https://hooks.slack.com/services/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',array(
-		'method' => 'POST',
-		'body' => $json
-		) 
-	);
-}
-
-function hs_ev_deactivate_hook() {
-	$type_of_actions = "desactivation";
-	$email = get_option('admin_email');
-	$siteurl = get_site_url();
-	$product = "hs_ev";
-	$values = new stdClass();
-	$values->text = "website : $siteurl ,\n email : $email ,\n product : $product ,\n action : $type_of_actions ";
-	$json = wp_json_encode($values);
-		wp_remote_post('https://hooks.slack.com/services/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',array(
-		'method' => 'POST',
-		'body' => $json
-		) 
-	);
-}
-
-register_deactivation_hook( __FILE__, 'hs_ev_deactivate_hook' );
-
 function hs_ev_check_email($email, $record = 'MX'){
     list($user, $domain) = explode('@', $email);
     return checkdnsrr($domain, $record);
