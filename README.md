@@ -1,6 +1,6 @@
-# WooCommerce Checkout Email Validator
+# Email Domain Validator for WooCommerce
 
-**WooCommerce Checkout Email Validator** : An easy tool for prevent email spamming on your store.
+**Email Domain Validator for WooCommerce** : An easy tool for prevent email spamming on your store.
 
 **Contributors:** homescriptone,kpego  
 **Tags:** spam, email, checkout,woocommerce,order  
