@@ -14,7 +14,7 @@
 
 ## Usage
 
-After activating the plugin, under the WooCommerce menu, you will see "Email Domain Validator for WooCommerce", by accessing the tab it will redirect you to the page where you can activate the option.
+After activating the plugin, under the **WooCommerce** menu, you will see **Email Domain Validator for WooCommerce**, by accessing the tab it will redirect you to the page where you can activate the option.
 
 After enabling the option, place an order with an adress email with a weird domain, as soon as it checks and the domain does not exist, an error message is displayed.
 
