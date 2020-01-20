@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Email Domain Validator for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-17 20:59+0000\n"
+"PO-Revision-Date: 2019-11-17 20:59+0000\n"
+"Last-Translator: manutheblacker <tintin@gmail.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.4"
+
+#: hs-ev.php:70
+msgid ""
+"<br/>By enabling it, if a fake email is put an error message will be "
+"displayed."
+msgstr ""
+
+#. Description of the plugin
+msgid "An easy tool for prevent email spamming on your store."
+msgstr ""
+
+#. Name of the plugin
+#: hs-ev.php:52 hs-ev.php:126 hs-ev.php:126 hs-ev.php:137
+msgid "Email Domain Validator for WooCommerce"
+msgstr ""
+
+#: hs-ev.php:36
+msgid "Email Domain Validator for WooCommerce require WooCommerce for work."
+msgstr ""
+
+#: hs-ev.php:69
+msgid "Enable/Disable Email Domain Validator for WooCommerce"
+msgstr ""
+
+#. Author of the plugin
+msgid "HomeScript"
+msgstr ""
+
+#: hs-ev.php:137
+msgid "HomeScript team"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/homescript1/email-domain-validator-for-woocommerce"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://homescriptone.com"
+msgstr ""
+
+#: hs-ev.php:137
+#, php-format
+msgid ""
+"If you like %1$s please leave us a %2$s rating.This will make happy %3$s."
+msgstr ""
+
+#: hs-ev.php:137
+msgid "Thanks :)"
+msgstr ""
+
+#: hs-ev.php:104
+msgid "This is not a valid email, please enter a valid email."
+msgstr ""
